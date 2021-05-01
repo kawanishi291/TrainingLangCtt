@@ -8,8 +8,8 @@ $ cd textbook
 #!/bin/bash
 
 # Compile
-g++ sample01.cpp -o sample01
+g++ sample01_02_01.cpp -o sample01_02_01
 
 # Execute
-./sample01
+./sample01_02_01
 ```
