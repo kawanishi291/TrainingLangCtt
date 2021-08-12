@@ -9,4 +9,5 @@ class Slime : public AbstractMonster
 
 public:
     Slime();
+    std::string getName();
 };
