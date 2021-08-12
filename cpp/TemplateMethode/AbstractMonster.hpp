@@ -1,5 +1,8 @@
-#include <iostream>
+#ifndef ABSTRACTMONSTER
 
+#define ABSTRACTMONSTER
+
+#include <iostream>
 #include <string>
 
 class AbstractMonster
@@ -12,7 +15,8 @@ public:
     AbstractMonster();
     ~AbstractMonster();
     void setData(std::string name, int atk, int def);
-    std::string getName();
+    virtual std::string getName();
     int getAttack();
     int getDefense();
 };
+#endif
